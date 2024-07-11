@@ -16,7 +16,7 @@ Employers can create new job listings with details such as job title, descriptio
 # Delete Job Listings:
 Employers can delete their existing job listings.
 
-Live previews
+
 Fullscreen mode
 Cross platfor
 
