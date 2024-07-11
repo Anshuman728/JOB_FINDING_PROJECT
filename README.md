@@ -15,6 +15,9 @@ Employers can register and log in to the platform.
 Employers can create new job listings with details such as job title, description, requirements, and location.
 #### Delete Job Listings:
 Employers can delete their existing job listings.
+#### Check Applicants Application:
+Emplyoer can check the Application form for all the jobseekers who are applied for the job posted by him.
+ 
 
 ![Screenshot (239)](https://github.com/user-attachments/assets/11a3fe87-0474-413a-b34a-cd0f3668ebfc)
 
@@ -36,5 +39,27 @@ Employers can delete their existing job listings.
  ![Screenshot (241)](https://github.com/user-attachments/assets/004bda29-5c50-494b-8ffd-aa542bfa24de)
  ![Screenshot (242)](https://github.com/user-attachments/assets/61069aaf-e043-4479-a3d9-b3b47e924615)
 
+## Authentication and Authorization
+
+##### JWT Authorization:
+Implemented JSON Web Token (JWT) authorization to ensure secure user authentication for both employers and jobseekers.
+##### Protected Routes: 
+Certain routes are protected and can only be accessed by authenticated users.
+
+## Backend Features
+##### Express and Node.js: 
+The backend is built using Express and Node.js to handle server-side operations.
+##### MongoDB and Mongoose:
+Used MongoDB as the database and Mongoose for object data modeling (ODM).
+##### User Models: S
+Separate user models for employers and jobseekers to manage user data efficiently.
+
+## Frontend Features
+##### React:
+The frontend is built using React for creating a dynamic and responsive user interface.
+##### Redux:
+Utilized Redux for state management to ensure smooth data flow between components.
+##### Tailwind-CSS: 
+Used Tailwind-CSS for designing the UI.
 
   
